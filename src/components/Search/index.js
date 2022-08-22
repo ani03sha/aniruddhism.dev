@@ -1,3 +1,4 @@
+/* eslint-disable import/no-unresolved */
 /* eslint-disable react/prop-types */
 import React, { createRef, useState } from 'react';
 import algoliasearch from 'algoliasearch/lite';

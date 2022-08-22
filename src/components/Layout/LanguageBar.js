@@ -1,15 +1,13 @@
+/* eslint-disable import/no-unresolved */
 import React, { useState } from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import { fromPairs } from 'ramda';
-
 import { rhythm } from 'utils/typography';
-
 import LangButton from '../LangButton';
 import BalloonField from '../BalloonField';
 import LangList from '../LangList/LangList';
 import './LanguageBar.css';
-
 import Search from '../Search';
 
 const searchIndices = [
@@ -64,8 +62,8 @@ function LanguageBar({ lang: langKey }) {
             }}
           >
             <div className="bar">
-              <LangButton lang={language} focused={displayLang} onClick={handleToggleLanguage} />
               <Search indices={searchIndices} />
+              <LangButton lang={language} focused={displayLang} onClick={handleToggleLanguage} />
             </div>
             <div className="toggle-content" style={toggleStyle}>
               <BalloonField style={{ padding: 20 }}>

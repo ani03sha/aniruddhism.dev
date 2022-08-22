@@ -1,5 +1,5 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
-
 import { rhythm } from 'utils/typography';
 
 function Footer() {

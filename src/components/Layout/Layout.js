@@ -8,6 +8,7 @@ import Header from './Header';
 import Footer from './Footer';
 import ReadModeToggle from './ReadModeToggle';
 import Breadcrumbs from '../Breadcrumbs';
+import Top from '../Top';
 
 function Layout({ children, location, title, breadcrumbs }) {
   const { lang, homeLink, refresh } = useLang();
@@ -26,6 +27,7 @@ function Layout({ children, location, title, breadcrumbs }) {
         fontFamily: 'var(--systemFont)',
       }}
     >
+      <Top/>
       <LanguageBar lang={lang} />
       <div
         style={{
