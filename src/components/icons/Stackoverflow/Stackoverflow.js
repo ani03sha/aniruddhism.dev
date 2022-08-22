@@ -1,30 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import RotateLinkImg from '../../RotateLinkImg';
-import twitterIcon from './twitter.svg';
+import stackoverflowIcon from './stackoverflow.svg';
 import withThemeFlag from '../../../utils/withThemeFlag';
 
-function Twitter({ username, size }) {
+function Stackoverflow({ username, size }) {
   if (!username) return null;
 
   return (
     <RotateLinkImg
-      href={`https://twitter.com/${username}`}
-      src={twitterIcon}
+      href={`https://stackoverflow.com/users/${username}`}
+      src={stackoverflowIcon}
       size={size}
     />
   );
 }
 
-Twitter.propTypes = {
+Stackoverflow.propTypes = {
   username: PropTypes.string,
   size: PropTypes.number,
 };
 
-Twitter.defaultProps = {
+Stackoverflow.defaultProps = {
   username: null,
   size: 24,
 };
 
-export default withThemeFlag(Twitter);
+export default withThemeFlag(Stackoverflow);

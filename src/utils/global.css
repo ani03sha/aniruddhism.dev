@@ -6,7 +6,7 @@ body {
 }
 
 body.light {
-  --bg: #ffffff;
+  --bg: #fffde5;
   --header: var(--pink);
   --textNormal: #222;
   --textTitle: #222;

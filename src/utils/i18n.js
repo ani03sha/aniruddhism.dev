@@ -3,13 +3,11 @@ import { useLang } from 'context/LanguageContext';
 import { formatPostDate } from 'utils/helpers';
 
 const formatMessage = (msgId, ...args) => {
-  const { lang, messages } = useLang();
+  const { messages } = useLang();
 
   const msg = messages[msgId];
 
   if (msg == null) {
-    console.error(`MessageId [${msgId}] is not exist!!
-    You should add it to config/locales/${lang}.js`);
     return msgId;
   }
 

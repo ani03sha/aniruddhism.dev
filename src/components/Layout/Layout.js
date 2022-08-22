@@ -1,9 +1,8 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import { useLang } from 'context/LanguageContext';
 import { rhythm } from 'utils/typography';
-
 import LanguageBar from './LanguageBar';
 import Header from './Header';
 import Footer from './Footer';
@@ -32,7 +31,7 @@ function Layout({ children, location, title, breadcrumbs }) {
         style={{
           marginLeft: 'auto',
           marginRight: 'auto',
-          maxWidth: rhythm(24),
+          maxWidth: rhythm(32),
           padding: `2.625rem ${rhythm(3 / 4)}`,
         }}
       >

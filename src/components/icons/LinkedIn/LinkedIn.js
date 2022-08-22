@@ -1,30 +1,29 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-
 import RotateLinkImg from '../../RotateLinkImg';
-import twitterIcon from './twitter.svg';
+import linkedinIcon from './linkedin.svg';
 import withThemeFlag from '../../../utils/withThemeFlag';
 
-function Twitter({ username, size }) {
+function LinkedIn({ username, size }) {
   if (!username) return null;
 
   return (
     <RotateLinkImg
-      href={`https://twitter.com/${username}`}
-      src={twitterIcon}
+      href={`https://linkedin.com/in/${username}`}
+      src={linkedinIcon}
       size={size}
     />
   );
 }
 
-Twitter.propTypes = {
+LinkedIn.propTypes = {
   username: PropTypes.string,
   size: PropTypes.number,
 };
 
-Twitter.defaultProps = {
+LinkedIn.defaultProps = {
   username: null,
   size: 24,
 };
 
-export default withThemeFlag(Twitter);
+export default withThemeFlag(LinkedIn);

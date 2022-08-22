@@ -1,9 +1,8 @@
 import React, { useContext } from 'react';
 import PropTypes from 'prop-types';
-
+// eslint-disable-next-line import/no-unresolved
 import getCurrentLangKey from 'utils/getCurrentLangKey';
 import { site, supportedLanguages } from 'config';
-
 import makeLoadMessage from './makeLoadMessage';
 
 const loadMessage = makeLoadMessage(site.lang);
