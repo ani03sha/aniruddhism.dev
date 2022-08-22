@@ -11,6 +11,7 @@ const {
   facebook = 'Anir35',
   linkedin = 'anirshar',
   stackoverflow = '7920195/anirudh-sharma',
+  instagram = 'aniruddhism',
   disqusShortName = 'aniruddhism-dev',
   lang = 'en',
   googleTrackingId: trackingId,
@@ -32,7 +33,8 @@ module.exports = {
       medium,
       facebook,
       linkedin,
-      stackoverflow
+      stackoverflow,
+      instagram
     },
     disqusShortName,
     lang,

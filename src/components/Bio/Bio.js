@@ -1,14 +1,13 @@
+/* eslint-disable import/no-unresolved */
 /**
  * Bio component that queries for data
  * with Gatsby's StaticQuery component
  *
  * See: https://www.gatsbyjs.org/docs/static-query/
  */
-
 import React from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import { GatsbyImage } from 'gatsby-plugin-image';
-
 import { rhythm } from 'utils/typography';
 import './Bio.css';
 
