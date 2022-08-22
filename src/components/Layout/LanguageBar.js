@@ -62,8 +62,8 @@ function LanguageBar({ lang: langKey }) {
             }}
           >
             <div className="bar">
-              <Search indices={searchIndices} />
               <LangButton lang={language} focused={displayLang} onClick={handleToggleLanguage} />
+              <Search indices={searchIndices} />
             </div>
             <div className="toggle-content" style={toggleStyle}>
               <BalloonField style={{ padding: 20 }}>
