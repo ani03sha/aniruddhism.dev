@@ -3,7 +3,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { useLang } from 'context/LanguageContext';
 import { rhythm } from 'utils/typography';
-import LanguageBar from './LanguageBar';
 import Header from './Header';
 import Footer from './Footer';
 import ReadModeToggle from './ReadModeToggle';
@@ -28,7 +27,6 @@ function Layout({ children, location, title, breadcrumbs }) {
       }}
     >
       <Top/>
-      <LanguageBar lang={lang} />
       <div
         style={{
           marginLeft: 'auto',

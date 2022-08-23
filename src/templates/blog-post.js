@@ -1,7 +1,7 @@
+/* eslint-disable import/no-unresolved */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link, graphql } from 'gatsby';
-
 import Bio from 'components/Bio';
 import Layout from 'components/Layout';
 import SEO from 'components/SEO';
@@ -9,7 +9,6 @@ import TagList from 'components/TagList';
 import RelativePosts from 'components/RelativePosts';
 import Disqus from 'components/Disqus';
 import TranslationsLink from 'components/TranslationsLink';
-
 import { formatReadingTime } from 'utils/helpers';
 import { formatDate } from 'utils/i18n';
 import { rhythm, scale } from 'utils/typography';

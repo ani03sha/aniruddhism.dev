@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
 import { fromPairs } from 'ramda';
 import { rhythm } from 'utils/typography';
-import LangButton from '../LangButton';
+// import LangButton from '../LangButton';
 import BalloonField from '../BalloonField';
 import LangList from '../LangList/LangList';
 import './LanguageBar.css';
@@ -57,12 +57,12 @@ function LanguageBar({ lang: langKey }) {
         return (
           <div
             style={{
-              maxWidth: rhythm(24),
+              maxWidth: rhythm(32),
               margin: 'auto',
             }}
           >
             <div className="bar">
-              <LangButton lang={language} focused={displayLang} onClick={handleToggleLanguage} />
+              {/* <LangButton lang={language} focused={displayLang} onClick={handleToggleLanguage} /> */}
               <Search indices={searchIndices} />
             </div>
             <div className="toggle-content" style={toggleStyle}>
