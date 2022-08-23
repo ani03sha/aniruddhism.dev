@@ -12,7 +12,7 @@ function Footer() {
       }}
     >
       <p>
-        Made of{' '}
+        Template from {' '}
         <a
           href="https://github.com/thundermiracle/gatsby-simple-blog"
           target="_blank"
@@ -20,6 +20,10 @@ function Footer() {
         >
           gatsby-simple-blog
         </a>
+      </p>
+      <p>
+        Icons by  {' '}
+        <a href=" https://www.flaticon.com/free-icons/decentralized" title="decentralized icons">Amonrat Rungreangfangsai</a>
       </p>
     </footer>
   );

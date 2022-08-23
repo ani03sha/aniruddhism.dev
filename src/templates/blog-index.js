@@ -37,7 +37,7 @@ function BlogIndex({ pageContext, data, location }) {
             date={node.frontmatter.date}
             timeToRead={node.timeToRead}
             title={title}
-            excerpt={node.frontmatter.description || node.excerpt}
+            excerpt={node.excerpt || node.frontmatter.description}
             tags={node.frontmatter.tags}
           />
         );
