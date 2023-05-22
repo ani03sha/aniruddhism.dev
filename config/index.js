@@ -9,7 +9,7 @@ const site = {
   medium: 'anirudh03sharma',
   facebook: 'Anir35',
   disqusShortName: 'aniruddhism-dev',
-  googleTrackingId: 'G-XTHJ9EB0YM',
+  googleTrackingId: 'G-HCX9GKKS02',
   lang: 'en',
   displayTranslations: true,
   postsPerPage: 10,
