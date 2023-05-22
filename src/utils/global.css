@@ -6,7 +6,7 @@ body {
 }
 
 body.light {
-  background-color: #fefde5;
+  background-color: #ffffff;
   text-shadow: 0 0 0.1px rgba(0, 0, 0, 0.3);
   --header: var(--pink);
   --textNormal: #222;
