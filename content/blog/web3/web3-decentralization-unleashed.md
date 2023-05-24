@@ -137,3 +137,7 @@ Web 3.0, the hero of our story, is here to address those challenges. It operates
 The decentralized web represents a paradigm shift, where the power is distributed among users themselves. It offers an alternative to the current centralized model, providing individuals with the freedom to explore, express themselves, and participate in a more democratic online ecosystem. 
 
 As we embark on this decentralized journey, the internet evolves alongside our collective aspirations. The decentralized web redefines the internet as a tool that empowers individuals, fosters collaboration, and restores trust in the online world. It's an exciting era of empowerment, innovation, and new possibilities, where the internet becomes a catalyst for positive change. So, fasten your seatbelt and embrace the decentralized web, as we shape the future of the digital landscape together.
+
+If you enjoyed reading the blog and found it insightful, I'd love to hear your thoughts! 
+
+Namaste 😄

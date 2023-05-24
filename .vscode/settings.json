@@ -1,3 +1,10 @@
 {
-  "editor.formatOnSave": true
+  "editor.formatOnSave": true,
+  "cSpell.words": [
+    "Corda",
+    "Dragonchain",
+    "Hyperledger",
+    "Litecoin",
+    "vlogging"
+  ]
 }
